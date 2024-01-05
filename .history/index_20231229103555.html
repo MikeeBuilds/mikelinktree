@@ -20,13 +20,14 @@
   </head>
 
   <body>
-    <!-- Parallax Pixel Background Animation -->
-    <section class="animated-background">
-      <div id="stars1"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
-    </section>
-    <!-- End of Parallax Pixel Background Animation -->
+    <div id="app">
+      <!--
+      <div class="card">
+        Some content!
+      </div>
+      -->
+      <edge-graphic :width="options.width" :height="options.height"></edge-graphic>
+    </div>
 
     <a id="profilePicture" href="#popup">
       <img src="me.png" alt="Profile Picture" />
@@ -52,7 +53,7 @@
 
     <div id="links">
       <a class="link" href="https://www.mikebuilds.xyz/" target="_blank">
-        <i class="fa-solid fa-earth-americas">&nbsp;</i>Check OUt My Website Website
+        <i class="fa-solid fa-earth-americas">&nbsp;</i>Website
       </a>
       <a class="link" href="https://github.com/mikeebuilds" target="_blank">
         <i class="fab fa-github">&nbsp;</i>Github
